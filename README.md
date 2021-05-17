@@ -132,7 +132,7 @@ db = SQLAlchemy()
 
 - Look up William, save him to a variable, and print it
 
-- Look up archstone, and save it to a variable.
+- Look up archstone, save it to a variable, and print it.
 
 - Change Jane's age to 30.
 
@@ -149,7 +149,7 @@ db = SQLAlchemy()
 
 - Print the count (length) of how many properties Yuki owns.
 
-- Print the name of Willowspring's owner.
+- Find Willowspring's owner and print their name.
 
 - Change Willowspring so that is now owned by Yuki.
 
