@@ -43,7 +43,7 @@
    ```
 1. pip3 install psycopg2
 1. Create your database via psql and name it sqlalchemy_apartments
-1. alembic upgrade head
+1. alembic upgrade head (this doesn't do anything, but if it runs w/o errors you know you're good up til this point)
 </details>
 
 ## Migration tips
