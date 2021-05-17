@@ -104,8 +104,8 @@ db = SQLAlchemy()
 
 1. Owner Model
    - id
-   - name
-   - age
+   - name (String)
+   - age (Integer)
    - apartments (relationship with apartments )
 
 ## Part 1
