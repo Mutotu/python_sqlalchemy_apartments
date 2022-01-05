@@ -4,11 +4,12 @@
 
 1. Get a backend server up and running with flask
 1. Have our flask server communicating with our postgres DB
-1. Create CRUD functions that communicate with the backend (no routes and controllers yet) (no req,res yet just functions)
-
-- you are only going to create 1 route that will invoke a function
-- this means that for each function, you should write the function, test that it works via postman or thunderclient and if it does then comment it out when you move onto the next function.
-- you will submit your functions either in the application.py or create a separate file for each part with those functions included
+1. Create CRUD functions that communicate with the backend
+1. Put all functions and routes in one file (application.py)
+1. Put all models in one file (models.py) 
+1. For each model, you should have a function and route for "create one", "read one", "read all", "update one", and "delete one". 
+1. Make additional functions and routes for the different tasks described further below. 
+1. Use Postman or Thunderclient to verify that each of your functions and routes works. 
 
 ## Setup Tips
 
@@ -154,3 +155,7 @@ db = SQLAlchemy()
 - Change Willowspring so that is now owned by Yuki.
 
 - Print the names of the people who own properties that have 20 units or more
+
+## Part 3 - Extra Credit
+
+- Create a React front end and see what CRUD calls you can perform from there using what we've learned up to this point about SQLAlchemy and Flask.
