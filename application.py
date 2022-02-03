@@ -213,7 +213,16 @@ def associate():
         print(e)
         return jsonify({"error" : f'{e}'})
 
-def 
+@app.route('/getProps', methods=["GET"])
+def properties():
+    try:
+        name = models.Owner.query.filter_by(name=request.args.get("name")).first()
+        print(name)
+        return 'ok'
+    except Exception as e:
+        print(e)
+        return jsonify({"error" : f'{e}'})
+    
 
 
 
